@@ -1,5 +1,5 @@
 import pygame
-from pygame.sprite import sprite
+from pygame.sprite import Sprite
 
 class Bullet(Sprite):
     # class to manage bullets fired from the ship pew pew
