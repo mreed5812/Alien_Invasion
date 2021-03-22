@@ -119,6 +119,11 @@ class AlienInvasion:
         #Set first boolen in below to False and you get a super bullet!
         collisions = pygame.sprite.groupcollide(self.bullets, self.aliens, True, True)
 
+        if not self.aliens:
+            #Destory exisiting bullets and create a new fleet
+            self.bullets.empty()
+            self._create_fleet()
+
     def _update_aliens(self):
         #Check if fleet is at an edge then update positions of all aliens in fleet
         self._check_fleet_edges()
