@@ -4,7 +4,6 @@
 
 # 👽 Alien Invasion
 Alien invasion is a clone of popular arcade game with same name.
-I created this game by following the "Python Crash Course" book. The reason was to improve my python skills.
 
 ## 🚀 Introduction
 > In Alien Invasion, the player controls a ship that appears at
@@ -34,7 +33,7 @@ loses a ship. If the player loses three ships, the game ends.
 ### Cloning the Repository
 
 ```
-$ git clone https://github.com/bryanlds/Alien-Invasion.git
+$ git clone https://github.com/mreed5812/Alien_Invasion.git
 
 $ cd Alien-Invasion
 ```
